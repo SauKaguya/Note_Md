@@ -93,8 +93,6 @@ for(auto p=begin(ia);p!=end(ia);++p){
 using int_array = int[4];
 ```
 
-
-
 **顶层const与底层const**
 
 ```c
@@ -115,8 +113,6 @@ while(getline(cin,line))
     cout << line << endl;
 //getline：读取一整行，包括空白符
 ```
-
-
 
 **STRING的EMPTY和SIZE操作**
 
@@ -291,4 +287,4 @@ string::const_iterator it4;      //it4只能读字符，不能写字符
 auto it3 = v.cbegin(); //类型是vector<int>::const_iterator
 ```
 
-
+test
